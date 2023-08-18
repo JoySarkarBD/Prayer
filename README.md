@@ -1,4 +1,10 @@
-To explain the functionalities as below:
+# To explain the functionalities as below:
+
+## Main Task is update those features from the Tawkit 9.31 to 9.51
+
+### Those feature need to apply in the new version
+
+<img src='./task-img-1.png' alt='task_img' />
 
 1. The first one has the purpose to show Azkar (Pictures) after the prayer. And you specify the time how long time you want to show them.
 
