@@ -35,6 +35,17 @@
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
 
+  XX_SLIDERS_0: "Persönliche Folien aktivieren",
+  XX_SLIDER_1:
+    "Dias sind Bilder, die nach Azkar zufällig auf dem Bildschirm angezeigt werden",
+  XX_SLIDERS_2:
+    "Sie werden alle 20 Sekunden bis zum nächsten Gebet angezeigt/ausgeblendet",
+  XX_SLIDER_3:
+    "Um Ihre eigenen Folien hinzuzufügen, platzieren Sie bis zu 7 Bilder im Ordner (Folien).",
+  XX_SLIDERS_4: "Um die Folien zu testen, klicken Sie auf Dohr",
+  XX_SLIDERS_5:
+    "Um die Folien anzuhalten, klicken Sie auf den Folienbildschirm.",
+
   XX_Themes_0:
     "Klicken Sie auf Bild, um den persönlichen Hintergrund zu verwenden",
   XX_Themes_1: "Um das Hintergrundbild zu ändern,  Sie die Datei",

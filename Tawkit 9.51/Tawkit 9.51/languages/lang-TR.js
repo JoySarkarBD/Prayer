@@ -34,6 +34,16 @@
   XXFastingMonday: "Hatırlatma : Yarın Pazartesi Oruç Tutmayı Unutmayın",
   XXFastingThursday: "Hatırlatma : Yarın Perşembe Oruç Tutmayı Unutmayın",
 
+  XX_SLIDERS_0: "Kişisel Slaytları Etkinleştir",
+  XX_SLIDERS_1:
+    "Slaytlar, Azkar'dan sonra ekranda rastgele görüntülenen resimlerdir",
+  XX_SLIDERS_2:
+    "Bir sonraki Namaza kadar her 20 saniyede bir gösterilir/gizlenir",
+  XX_SLIDERS_3:
+    "Kendi Slaytlarınızı eklemek için (Slaytlar) klasörüne en fazla 7 resim yerleştirin.",
+  XX_SLIDERS_4: "Slaytları test etmek için Dohr'a tıklayın",
+  XX_SLIDERS_5: "Slaytları durdurmak için Slaytlar Ekranına tıklayın.",
+
   XX_Themes_0: "Kişisel arka planı kullanmak için resme tıklayın",
   XX_Themes_1:
     "Arka plan resmini değiştirmek için dosyayı değiştirmeniz gerekir",

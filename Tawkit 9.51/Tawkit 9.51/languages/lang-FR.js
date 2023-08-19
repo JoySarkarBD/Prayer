@@ -34,6 +34,16 @@
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
 
+  XX_SLIDERS_0: "Activer les diapositives personnelles",
+  XX_SLIDERS_1:
+    "Les diapositives sont des images qui sont affichées aléatoirement sur l'écran après l'Azkar",
+  XX_SLIDERS_2:
+    "Elles sont affichées/cachées toutes les 20 secondes jusqu'à la prochaine Prière",
+  XX_SLIDERS_3:
+    "Pour ajouter vos propres diapositives, placez jusqu'à 7 images dans le dossier (Slides)",
+  XX_SLIDERS_4: "Pour tester les diapositives, cliquez sur Dohr",
+  XX_SLIDERS_5: "Pour arrêter les diapositives, cliquez sur lécran",
+
   XX_Themes_0: "Cliquez sur l'image pour utiliser votre fond d'écran personnel",
   XX_Themes_1: "Pour changer l'image de fond, modifiez le fichier",
   XX_Thémes_2: "dans le dossier",

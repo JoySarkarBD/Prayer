@@ -21,6 +21,7 @@
   MenuHijriClick: "Adjust Hijri Date",
   MenuThemes: "Change Screen Background",
   MenuOptions: "Options",
+  MenuSliders: "Slides Display",
   MenuAdjustments: "Adjust Prayers Times and Iqama",
   MenuBlackscreen: "Adjust Black-Screen",
   MenuAboutTawkit: "About Tawkit",
@@ -28,6 +29,15 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_SLIDERS_0: "Activate Personal Slides",
+  XX_SLIDERS_1:
+    "Slides are images that are randomly displayed on the screen after Azkar",
+  XX_SLIDERS_2: "They are shown/hidden every 20 seconds until the next Prayer",
+  XX_SLIDERS_3:
+    "To add your own Slides, place up to 7 images in the (Slides) folder.",
+  XX_SLIDERS_4: "To test the Slides, click on Dohr",
+  XX_SLIDERS_5: "To stop the Slides, click on Slides Screen.",
 
   XX_Themes_0: "Click on picture to use personal background",
   XX_Themes_1: "To change the background picture, modify the file",

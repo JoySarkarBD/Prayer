@@ -20,6 +20,7 @@
   MenuHijriClick: "Ajustar la fecha de Hijri",
   MenuThemes: "Cambiar la imagen de la pantalla",
   MenuOptions: "Opción",
+  MenuSliders: "Visualización de diapositivas",
   MenuAdjustments: "Ajustar los tiempos de oración",
   MenuBlackscreen: "Ajuste la pantalla negra",
   MenuMosquelogo: "Logo de la Mezquita",
@@ -29,6 +30,15 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_SLIDERS_0: "Activar diapositivas personales",
+  XX_DESLIZADORES_1:
+    "Las diapositivas son imágenes que se muestran aleatoriamente en la pantalla después de Azkar",
+  XX_SLIDERS_2: "Se muestran/ocultan cada 20 segundos hasta la próxima Oración",
+  XX_DESLIZADORES_3:
+    "Para agregar sus propias diapositivas, coloque hasta 7 imágenes en la carpeta (Diapositivas)".,
+  XX_SLIDERS_4: "Para probar las diapositivas, haga clic en Dohr",
+  XX_SLIDERS_5: "Para detener las diapositivas, haz clic en la pantalla de diapositivas".,
 
   XX_Themes_0: "Haga clic en la imagen para usar una imagen personal",
   XX_Themes_1: "Para cambiar la imagen de fondo, modifique el archivo",

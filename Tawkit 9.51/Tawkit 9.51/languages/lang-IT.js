@@ -20,6 +20,7 @@
   MenuHijriClick: "Regola la data hijri",
   MenuThemes: "Modifica lo sfondo dello schermo",
   MenuOptions: "Opzioni",
+  MenuSliders: "Visualizzazione diapositive",
   MenuAdjustments: "Regola i tempi delle preghiere",
   MenuBlackscreen: "Regola lo schermo nero",
   MenuAboutTawkit: "A proposito di Tawkit",
@@ -27,6 +28,17 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_SLIDERS_0: "Attiva diapositive personali",
+  XX_SLIDERS_1:
+    "Le diapositive sono immagini che vengono visualizzate in modo casuale sullo schermo dopo Azkar",
+  XX_SLIDERS_2:
+    "Sono mostrati/nascosti ogni 20 secondi fino alla prossima Preghiera",
+  XX_SLIDERS_3:
+    "Per aggiungere le tue diapositive, inserisci fino a 7 immagini nella cartella (Diapositive).",
+  XX_SLIDERS_4: "Per testare le diapositive, fai clic su Dohr",
+  XX_SLIDERS_5:
+    "Per interrompere le diapositive, fai clic su Schermata diapositive.",
 
   XX_OPTION_0: "Abilita 24 ore",
   XX_OPTION_1: "Abilita orologio completo",

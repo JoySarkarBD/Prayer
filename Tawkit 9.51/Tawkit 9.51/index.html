@@ -700,6 +700,12 @@ Azan Voice is Activated in Settings <br> Click Here To Enable Sounds in Browser<
 				<div class='cssMenuBTN' id='AAA_OwnMessage' 	onclick="CloseHELP(); OwnMessageEditor();">-</div>
 				<div class='cssMenuBTN' id='AAA_LOCALISATION' 	onclick="CloseHELP(); ShowZunder('e_LOCALISATION');">-</div>
 				<div class='cssMenuBTN' id='AAA_ADJUSTMENTS' 	onclick="CloseHELP(); ShowZunder('e_ADJUSTMENTS');">-</div>
+				<div
+          class="cssMenuBTN"
+          id="AAA_SLIDERS"
+          onclick="CloseHELP(); ShowZunder('e_SLIDERS');">
+          -
+        </div>
 				<div class='cssMenuBTN' id='AAA_BLACKSCREEN' 	onclick="CloseHELP(); ShowZunder('e_BLACKSCREEN');">-</div>
 				<div class='cssMenuBTN' id='AAA_e_OPTIONS' 		onclick="CloseHELP(); ShowZunder('e_OPTIONS');">-</div>
 				<div class='cssMenuBTN' id='AAA_set_THEMES' 	onclick="CloseHELP(); ShowZunder('e_THEMES');">-</div>
@@ -921,6 +927,63 @@ Azan Voice is Activated in Settings <br> Click Here To Enable Sounds in Browser<
 				</div>
 			
 			</div>
+
+			<!-- ■■■■■■■■■■■■ SLIDESHOW PICTURES  ■■■■■■■■■■■■■■■■■■■ -->
+    <div id="e_SLIDERS" class="cssModelSettingsWINDOW cssColorLITE">
+      <div class="cssTitlesHOLDER">
+        <div class="cssWindowTITLE"></div>
+        <div class="cssWindowCLOSE">
+          <span onclick="SetScroll('scroSLIDES', 0);">&#9650;</span> &nbsp;
+          <span onclick="SetScroll('scroSLIDES', 1);">&#9660;</span>
+          &nbsp;&nbsp;&nbsp;
+          <span onclick="closeThis(this.parentNode);">&#10006;</span>
+        </div>
+      </div>
+
+      <div id="scroSLIDES" class="cssSettingsDATA CSS_X_LANG_DIRECTION">
+        <!--  ++++++++++++++++ SetOwnSlidersOnOff ON-OFF +++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="100%"
+          class="cccTBL2">
+          <tr>
+            <td height="20" width="100%" align="" valign="center">
+              <input
+                type="checkbox"
+                id="eSlidersCHECK"
+                class="cssCheckBOX"
+                onchange="SetOwnSlidersOnOff()" />
+              &nbsp; <label for="eSlidersCHECK" id="XX_SLIDERS_0"></label>
+            </td>
+          </tr>
+        </table>
+
+        <!--  +++++++++++++++++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="100%"
+          class="cccTBL2">
+          <tr>
+            <td height="20" width="100%" align="" valign="center">
+              <span id="XX_SLIDERS_1">---</span><br />
+              <span id="XX_SLIDERS_2">---</span>
+              <br /><br />
+              <span id="XX_SLIDERS_3">---</span> <br />
+              "slide-1.jpg", "slide-2.jpg" ...<br />
+            </td>
+          </tr>
+        </table>
+
+        <span id="XX_SLIDERS_4">---</span><br />
+        <span id="XX_SLIDERS_5">---</span>
+      </div>
+    </div>
 
 
 			<!-- ■■■■■■■■■■■■ PRAYINGS ADJUSTMENTS ■■■■■■■■■■■■■■■■■■■ -->
@@ -5184,6 +5247,8 @@ document.getElementById('AAA_HijriClick').innerHTML 	= "&#9673; &nbsp;"+JS_eLang
 document.getElementById('AAA_set_THEMES').innerHTML 	= "&#9673; &nbsp;"+JS_eLang.MenuThemes;
 document.getElementById('AAA_e_OPTIONS').innerHTML 		= "&#9673; &nbsp;"+JS_eLang.MenuOptions;
 document.getElementById('AAA_ADJUSTMENTS').innerHTML 	= "&#9673; &nbsp;"+JS_eLang.MenuAdjustments;
+document.getElementById("AAA_SLIDERS").innerHTML =
+      "▪ &nbsp; " + JS_eLang.MenuSliders;
 document.getElementById('AAA_BLACKSCREEN').innerHTML 	= "&#9673; &nbsp;"+JS_eLang.MenuBlackscreen;
 document.getElementById('AAA_LOCALISATION').innerHTML 	= "&#9673; &nbsp;"+JS_eLang.MenuLocation;
 document.getElementById('AAA_METEO').innerHTML 			= "&#9728; &nbsp;"+JS_eLang.XX_METEO_A;
@@ -5234,7 +5299,6 @@ document.getElementById('xxIQAMA3').innerHTML		= JS_eLang.XX_IQAMA;
 document.getElementById('xxIQAMA4').innerHTML		= JS_eLang.XX_IQAMA;
 document.getElementById('xxIQAMA5').innerHTML		= JS_eLang.XX_IQAMA;
 
-
 document.getElementById('XX_DIMMER_0').innerHTML		= JS_eLang.XX_DIMMER_0;
 document.getElementById('XX_DIMMER_1').innerHTML		= JS_eLang.XX_DIMMER_1;
 document.getElementById('XX_DIMMER_2').innerHTML		= JS_eLang.XX_DIMMER_2;
@@ -5251,6 +5315,13 @@ document.getElementById('yyDOHR').innerHTML			= JS_PRAYNAMES_NOW[2];
 document.getElementById('yyASR').innerHTML			= JS_PRAYNAMES_NOW[3];
 document.getElementById('yyMAGHRIB').innerHTML		= JS_PRAYNAMES_NOW[4];
 document.getElementById('yyISHA').innerHTML			= JS_PRAYNAMES_NOW[5];
+
+document.getElementById("XX_SLIDERS_0").innerHTML = JS_eLang.XX_SLIDERS_0;
+    document.getElementById("XX_SLIDERS_1").innerHTML = JS_eLang.XX_SLIDERS_1;
+    document.getElementById("XX_SLIDERS_2").innerHTML = JS_eLang.XX_SLIDERS_2;
+    document.getElementById("XX_SLIDERS_3").innerHTML = JS_eLang.XX_SLIDERS_3;
+    document.getElementById("XX_SLIDERS_4").innerHTML = JS_eLang.XX_SLIDERS_4;
+    document.getElementById("XX_SLIDERS_5").innerHTML = JS_eLang.XX_SLIDERS_5;
 
 
 document.getElementById('XX_TIMES_2').innerHTML		= JS_eLang.XX_TIMES_2;
@@ -5681,6 +5752,37 @@ CheckVRSCREEN();
 
 /* =================================== Amader Code ============================ */
 
+var JS_eSlidersCHECK = document.getElementById("eSlidersCHECK");
+
+
+var JS_USER_SLIDERS_ACTIVE = false;
+      var eetempo = localStorage.getItem("STORAGE_SLIDERS_ACTIVE");
+      if (eetempo == "1") JS_USER_SLIDERS_ACTIVE = true;
+
+
+
+//-------SetOwnSlidersOnOff------------------------------------------------------------------------------------
+  function SetOwnSlidersOnOff() {
+    JS_USER_SLIDERS_ACTIVE = !JS_USER_SLIDERS_ACTIVE;
+    var sssBOOL = 0;
+    if (JS_USER_SLIDERS_ACTIVE) sssBOOL = 1;
+    localStorage.setItem("STORAGE_SLIDERS_ACTIVE", sssBOOL);
+    if (sssBOOL) JS_eSlidersCHECK.checked = true;
+    else JS_eSlidersCHECK.checked = false;
+  }
+
+
+if (JS_USER_SLIDERS_ACTIVE) JS_eSlidersCHECK.checked = true;
+  else JS_eSlidersCHECK.checked = false;
+
+
+
+
+
+
+
+/* ============================================================================ */
+
 
 
 
@@ -5689,11 +5791,11 @@ CheckVRSCREEN();
 
 /* Adjust Black-Screen Start */
 
-
  var JS_eDohaScreenCHECK = document.getElementById("eDohaScreenCHECK");
 
 // ----- Minutes after SHOROUQ  to Dimm the Screen
 var JS_MINUTES_AFTER_SHOROUQ_TO_DIMM_SCREEN = 35;
+
 
 // Get the value of STORAGE_DOHA_SCREENSAVER from local storage
 var eetempo = localStorage.getItem("STORAGE_DOHA_SCREENSAVER");

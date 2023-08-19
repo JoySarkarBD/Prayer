@@ -20,6 +20,7 @@
   MenuHijriClick: "Justera hijri -datum",
   MenuThemes: "Ändra bilden av applikationen",
   MenuOptions: "Alternativ",
+  MenuSliders: "Slide viewer",
   MenuAdjustments: "Reglerar tiderna för bönerna och iqama",
   MenuBlackscreen: "Svarta skärminställningar",
   MenuAboutTawkit: "Om Tawkit",
@@ -27,6 +28,15 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_SLIDERS_0: "Aktivera personliga bilder",
+  XX_SLIDERS_1:
+    "Slides är bilder som visas slumpmässigt på skärmen efter Azkar",
+  XX_SLIDERS_2: "De visas/göms var 20:e sekund tills nästa bön",
+  XX_SLIDERS_3:
+    "För att lägga till dina egna bilder, placera upp till 7 bilder i mappen (Slides).",
+  XX_SLIDERS_4: "För att testa bilderna, klicka på Dohr",
+  XX_SLIDERS_5: "För att stoppa bilderna, klicka på skärmen Slides.",
 
   XX_OPTION_0: "Aktivera 24 timmar",
   XX_OPTION_1: "Aktivera hela klockan",

@@ -34,6 +34,16 @@
   XXFastingMonday: "Reminder : Jangan Lupa Puasa Besok Senin",
   XXFastingThursday: "Reminder : Jangan Lupa Puasa Besok Kamis",
 
+  XX_SLIDERS_0: "Aktifkan Slide Pribadi",
+  XX_SLIDERS_1:
+    "Slide adalah gambar yang ditampilkan secara acak di layar setelah Azkar",
+  XX_SLIDERS_2:
+    "Mereka ditampilkan/disembunyikan setiap 20 detik hingga Doa berikutnya",
+  XX_SLIDERS_3:
+    "Untuk menambahkan Slide Anda sendiri, tempatkan hingga 7 gambar di folder (Slide).",
+  XX_SLIDERS_4: "Untuk menguji Slide, klik Dohr",
+  XX_SLIDERS_5: "Untuk menghentikan Slide, klik Layar Slide.",
+
   XX_Themes_0: "Klik gambar untuk menggunakan latar belakang pribadi",
   XX_Themes_1: "Untuk mengubah gambar latar belakang, ubah file",
   XX_Themes_2: "dalam folder",
