@@ -20,6 +20,7 @@
   MenuHijriClick: "Ajustar la fecha de Hijri",
   MenuThemes: "Cambiar la imagen de la pantalla",
   MenuOptions: "Opción",
+  MenuAzkar: "Pantalla Azkar",
   MenuSliders: "Visualización de diapositivas",
   MenuAdjustments: "Ajustar los tiempos de oración",
   MenuBlackscreen: "Ajuste la pantalla negra",
@@ -30,6 +31,14 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_AZKAR_0: "Activar imágenes después de Namaz",
+XX_AZKAR_1: "Las imágenes se muestran cada 20 segundos",
+XX_AZKAR_2: "Las imágenes están en la carpeta:",
+XX_AZKAR_3: "Seleccione la duración de la foto después de la oración:",
+XX_AZKAR_4: "Mostrar solo una imagen, fija durante 5 minutos",
+XX_AZKAR_5: "Para ver las imágenes, haga clic en Zohar Time",
+XX_AZKAR_6: "Para salir de la imagen, haga clic en la pantalla de la imagen",
 
   XX_SLIDERS_0: "Activar diapositivas personales",
   XX_DESLIZADORES_1:

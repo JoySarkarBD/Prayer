@@ -35,6 +35,14 @@
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
 
+  XX_AZKAR_0: "Bilder nach Namaz aktivieren",
+  XX_AZKAR_1: "Bilder werden alle 20 Sekunden angezeigt",
+  XX_AZKAR_2: "Bilder befinden sich im Ordner",
+  XX_AZKAR_3: "Fotodauer nach dem Gebet auswählen",
+  XX_AZKAR_4: "Nur ein Bild anzeigen, 5 Minuten lang fixiert",
+  XX_AZKAR_5: "Um Bilder zu überprüfen, klicken Sie auf Zohar Time",
+  XX_AZKAR_6: "Um das Bild zu verlassen, klicken Sie auf den Bildbildschirm",
+
   XX_SLIDERS_0: "Persönliche Folien aktivieren",
   XX_SLIDER_1:
     "Dias sind Bilder, die nach Azkar zufällig auf dem Bildschirm angezeigt werden",

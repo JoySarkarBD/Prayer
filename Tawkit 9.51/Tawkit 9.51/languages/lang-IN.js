@@ -20,6 +20,7 @@
   MenuHijriClick: "हिजरी की तारीख को समायोजित करें",
   MenuThemes: "स्क्रीन पृष्ठभूमि बदलें",
   MenuOptions: "विकल्प",
+  MenuAzkar: "अज़कर डिस्प्ले",
   MenuSliders: "स्लाइड डिस्प्ले",
   MenuAdjustments: "प्रार्थना समय को समायोजित करें",
   MenuBlackscreen: "ब्लैक-स्क्रीन समायोजित करें",
@@ -30,6 +31,14 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "Reminder for Fasting Tomorrow Monday",
   XXFastingThursday: "Reminder for Fasting Tomorrow Thursday",
+
+  XX_AZKAR_0: "प्रार्थना के बाद अज़कर छवि सक्षम करें",
+  XX_AZKAR_1: "छवि हर 20 सेकंड में दिखाई/छिपी",
+  XX_AZKAR_2: "अज़कर की तस्वीरें फ़ोल्डर में हैं:",
+  XX_AZKAR_3: "प्रार्थना के बाद अज़कर की उपस्थिति की अवधि चुनें:",
+  XX_AZKAR_4: "केवल एक छवि दिखाएं, 5 मिनट तक रुकें",
+  XX_AZKAR_5: "अज़कर का परीक्षण करने के लिए, दोहर समय पर क्लिक करें",
+  XX_AZKAR_6: "अज़कर को रोकने के लिए, अज़कर की स्क्रीन पर क्लिक करें।",
 
   XX_Themes_0: "Click on picture to use personal background",
   XX_Themes_1: "To change the background picture, modify the file",

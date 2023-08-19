@@ -34,6 +34,14 @@
   XXFastingMonday: "Reminder : Jangan Lupa Puasa Besok Senin",
   XXFastingThursday: "Reminder : Jangan Lupa Puasa Besok Kamis",
 
+  XX_AZKAR_0: "Aktifkan Gambar Azkar Setelah Sholat",
+  XX_AZKAR_1: "Gambar Ditampilkan/Disembunyikan Setiap 20 Detik",
+  XX_AZKAR_2: "Gambar Azkar Ada Di Folder : ",
+  XX_AZKAR_3: "Pilih Durasi Munculnya Azkar Setelah Sholat :",
+  XX_AZKAR_4: "Tampilkan Hanya Satu Gambar, Tetap Selama 5 Menit",
+  XX_AZKAR_5: "Untuk Menguji Azkar, Klik Waktu Dohr",
+  XX_AZKAR_6: "Untuk Menghentikan Azkar, Klik Pada Layar Azkar.",
+
   XX_SLIDERS_0: "Aktifkan Slide Pribadi",
   XX_SLIDERS_1:
     "Slide adalah gambar yang ditampilkan secara acak di layar setelah Azkar",

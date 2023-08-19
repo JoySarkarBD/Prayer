@@ -44,6 +44,14 @@
   XX_SLIDERS_4: "Pour tester les diapositives, cliquez sur Dohr",
   XX_SLIDERS_5: "Pour arrêter les diapositives, cliquez sur lécran",
 
+  XX_AZKAR_0: "Activer les images Azkar après les prières",
+  XX_AZKAR_1: "Les images sont affichées/cachées toutes les 20 secondes",
+  XX_AZKAR_2: "Les images d'Azkar sont dans le dossier : ",
+  XX_AZKAR_3: "Choisissez la durée d'apparition d'Azkar après la prière :",
+  XX_AZKAR_4: "Afficher une seule image, fixée pour 5 minutes",
+  XX_AZKAR_5: "Pour tester l'Azkar, cliquez sur le temps de Dohr",
+  XX_AZKAR_6: "Pour arrêter l'Azkar, cliquez sur l'écran d'Azkar",
+
   XX_Themes_0: "Cliquez sur l'image pour utiliser votre fond d'écran personnel",
   XX_Themes_1: "Pour changer l'image de fond, modifiez le fichier",
   XX_Thémes_2: "dans le dossier",

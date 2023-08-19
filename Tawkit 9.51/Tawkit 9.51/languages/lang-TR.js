@@ -44,6 +44,14 @@
   XX_SLIDERS_4: "Slaytları test etmek için Dohr'a tıklayın",
   XX_SLIDERS_5: "Slaytları durdurmak için Slaytlar Ekranına tıklayın.",
 
+  XX_AZKAR_0: "Dualardan Sonra Azkar Resimlerini Etkinleştir",
+  XX_AZKAR_1: "Resimler Her 20 Saniyede Bir Gösteriliyor/Gizleniyor",
+  XX_AZKAR_2: "Azkar Resimleri Klasörde:",
+  XX_AZKAR_3: "Namazdan Sonra Görünen Azkar Süresini Seçin :",
+  XX_AZKAR_4: "Sadece Bir Resim Göster, 5 Dakika Sabit",
+  XX_AZKAR_5: "Azkar'ı Test etmek için (ÖĞLE time)'a tıklayın",
+  XX_AZKAR_6: "Azkar'ı Durdurmak İçin Azkar Ekranına Tıklayınız.",
+
   XX_Themes_0: "Kişisel arka planı kullanmak için resme tıklayın",
   XX_Themes_1:
     "Arka plan resmini değiştirmek için dosyayı değiştirmeniz gerekir",

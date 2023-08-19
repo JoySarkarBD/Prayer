@@ -21,6 +21,7 @@
   MenuHijriClick: "Adjust Hijri Date",
   MenuThemes: "Change Screen Background",
   MenuOptions: "Options",
+  MenuAzkar: "Azkar Display",
   MenuSliders: "Slides Display",
   MenuAdjustments: "Adjust Prayers Times and Iqama",
   MenuBlackscreen: "Adjust Black-Screen",
@@ -29,6 +30,14 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_AZKAR_0: "Activate Images After Namaz",
+  XX_AZKAR_1: "Images are shown every 20 seconds",
+  XX_AZKAR_2: "Images are in folder:",
+  XX_AZKAR_3: "Select photo duration after prayer:",
+  XX_AZKAR_4: "Show only one image, fixed for 5 minutes",
+  XX_AZKAR_5: "To check pictures, click Zohar Time",
+  XX_AZKAR_6: "To exit the image, click on the image screen",
 
   XX_SLIDERS_0: "Activate Personal Slides",
   XX_SLIDERS_1:

@@ -19,6 +19,7 @@
   MenuLocation: "Posizione della Moschea",
   MenuHijriClick: "Regola la data hijri",
   MenuThemes: "Modifica lo sfondo dello schermo",
+  MenuAzkar: "Display Azkar",
   MenuOptions: "Opzioni",
   MenuSliders: "Visualizzazione diapositive",
   MenuAdjustments: "Regola i tempi delle preghiere",
@@ -28,6 +29,15 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_AZKAR_0: "Abilita l'immagine Azkar dopo la preghiera",
+  XX_AZKAR_1: "Immagine mostrata/nascosta ogni 20 secondi",
+  XX_AZKAR_2: "Le foto di Azkar sono nella cartella :",
+  XX_AZKAR_3:
+    "Seleziona la durata dell'apparizione di Azkar dopo la preghiera :",
+  XX_AZKAR_4: "Mostra solo un'immagine, rimani per 5 minuti",
+  XX_AZKAR_5: "Per testare Azkar, fai clic su Dohr Time",
+  XX_AZKAR_6: "Per fermare Azkar, fai clic sullo schermo di Azkar.",
 
   XX_SLIDERS_0: "Attiva diapositive personali",
   XX_SLIDERS_1:

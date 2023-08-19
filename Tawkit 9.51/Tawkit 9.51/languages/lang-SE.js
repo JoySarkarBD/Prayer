@@ -19,6 +19,7 @@
   MenuLocation: "Moskéns position",
   MenuHijriClick: "Justera hijri -datum",
   MenuThemes: "Ändra bilden av applikationen",
+  MenuAzkar: "Azkar Display",
   MenuOptions: "Alternativ",
   MenuSliders: "Slide viewer",
   MenuAdjustments: "Reglerar tiderna för bönerna och iqama",
@@ -28,6 +29,14 @@
   XXDoaAzanIqama: "الدعاء بين الأذان والإقامة لا يرد",
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
+
+  XX_AZKAR_0: "Aktivera Azkar-bild efter bön",
+  XX_AZKAR_1: "Bilden visas/dold var 20:e sekund",
+  XX_AZKAR_2: "Azkars bilder finns i mappen :",
+  XX_AZKAR_3: "Välj varaktigheten för Azkars utseende efter bönen :",
+  XX_AZKAR_4: "Visa endast en bild, stanna i 5 minuter",
+  XX_AZKAR_5: "För att testa Azkar, klicka på Dohr Time",
+  XX_AZKAR_6: "För att stoppa Azkar, klicka på Azkars skärm.",
 
   XX_SLIDERS_0: "Aktivera personliga bilder",
   XX_SLIDERS_1:
