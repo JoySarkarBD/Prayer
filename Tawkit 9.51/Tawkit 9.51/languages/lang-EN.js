@@ -31,13 +31,13 @@
   XXFastingMonday: "تذكير بسنة صيام غدا الإثنين",
   XXFastingThursday: "تذكير بسنة صيام غدا الخميس",
 
-  XX_AZKAR_0: "Activate Images After Namaz",
-  XX_AZKAR_1: "Images are shown every 20 seconds",
-  XX_AZKAR_2: "Images are in folder:",
-  XX_AZKAR_3: "Select photo duration after prayer:",
-  XX_AZKAR_4: "Show only one image, fixed for 5 minutes",
-  XX_AZKAR_5: "To check pictures, click Zohar Time",
-  XX_AZKAR_6: "To exit the image, click on the image screen",
+  XX_AZKAR_0: "Activate Azkar Pictures After Prayers",
+  XX_AZKAR_1: "Pictures Are Shown/Hidden Every 20 Seconds",
+  XX_AZKAR_2: "Azkar Pictures Are In Folder : ",
+  XX_AZKAR_3: "Choose The Duration Of Azkar Appearing After The Prayer :",
+  XX_AZKAR_4: "Show Only One Image, Fixed For 5 Minutes",
+  XX_AZKAR_5: "To Test Azkar, Click On The Dohr Time",
+  XX_AZKAR_6: "To Stop Azkar, Click On The Azkar Screen.",
 
   XX_SLIDERS_0: "Activate Personal Slides",
   XX_SLIDERS_1:
