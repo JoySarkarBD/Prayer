@@ -1268,110 +1268,241 @@ Azan Voice is Activated in Settings <br> Click Here To Enable Sounds in Browser<
 
 
 			<!-- ■■■■■■■■■■■■ BLACK SCREEN PRAYING DURATION ■■■■■■■■■■■■■■■■■■■ -->
-			<div id='e_BLACKSCREEN' class='cssModelSettingsWINDOW cssColorLITE' >
+    <div id="e_BLACKSCREEN" class="cssModelSettingsWINDOW cssColorLITE">
+      <div class="cssTitlesHOLDER">
+        <div class="cssWindowTITLE"></div>
+        <div class="cssWindowCLOSE">
+          <span onclick="SetScroll('scroBLACKS', 0);">&#9650;</span> &nbsp;
+          <span onclick="SetScroll('scroBLACKS', 1);">&#9660;</span>
+          &nbsp;&nbsp;&nbsp;
+          <span onclick="closeThis(this.parentNode);">&#10006;</span>
+        </div>
+      </div>
 
-				<div class='cssTitlesHOLDER'>
-					<div class='cssWindowTITLE' ></div>
-					<div class='cssWindowCLOSE' ><span onclick="SetScroll('scroBLACKS', 0);">&#9650;</span> &nbsp;  <span onclick="SetScroll('scroBLACKS', 1);">&#9660;</span> &nbsp;&nbsp;&nbsp; <span onclick='closeThis(this.parentNode);'>&#10006;</span></div>
-				</div>
-	
-				<div id='scroBLACKS' class='cssSettingsDATA CSS_X_LANG_DIRECTION'>
-				
-							<!--   DIMM SCREEN ON-OFF   -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='100%' >
-							<tr>
-								<td height='20' width='100%' valign='center'>
-									<input type='checkbox' id='eDimmCHECK' class='cssCheckBOX' onchange='SetDimmOnOff()'> &nbsp; <label for='eDimmCHECK' id='XX_DIMMER_0'></label>
-								</td>
-							</tr>
-							</table>
+      <div id="scroBLACKS" class="cssSettingsDATA CSS_X_LANG_DIRECTION">
+        <!--  ++++++++++++++++ DIMM SCREEN ON-OFF +++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="100%"
+          class="cccTBL2">
+          <tr>
+            <td height="20" width="100%" valign="center">
+              <input
+                type="checkbox"
+                id="eDimmCHECK"
+                class="cssCheckBOX"
+                onchange="SetDimmOnOff()" />
+              &nbsp; <label for="eDimmCHECK" id="XX_DIMMER_0"></label>
+            </td>
+          </tr>
+        </table>
 
+        <!--  ++++++++++++++++ DOHA AND NIGHT SCREEN SAVER +++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="100%"
+          class="cccTBL2">
+          <tr>
+            <td height="20" width="100%" valign="center">
+              <input
+                type="checkbox"
+                id="eDohaScreenCHECK"
+                class="cssCheckBOX"
+                onchange="DohaScreenSaverOnOff()" />
+              &nbsp; <label for="eDohaScreenCHECK" id="XX_DIMMER_1"></label>
+            </td>
+          </tr>
+          <tr>
+            <td height="20" width="100%" valign="center">
+              <input
+                type="checkbox"
+                id="eIshaScreenCHECK"
+                class="cssCheckBOX"
+                onchange="IshaScreenSaverOnOff()" />
+              &nbsp; <label for="eIshaScreenCHECK" id="XX_DIMMER_2"></label>
+            </td>
+          </tr>
+        </table>
 
-							<!--   JOMOA_DIM_SETTINGS  -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='100%' class='cccTBL1' >
-							<tr>
-								<td height='20' width='17%' id='xxJOMOA'> JOMOA  </td>
-								<td height='20' width='63%' align='right' id='XX_DIMMER_3'></td>
-								<td height='20' width='12%' align='center' id='jjjJOMOA_BEFORE_DOHR'>0</td>
-								<td height='20' width='4%' align='left'><button class='cccADJUSTER' onclick="JomoaBEFOREminus()">-</button></td>
-								<td height='20' width='4' align='left'><button class='cccADJUSTER' onclick="JomoaBEFOREplus()">+</button></td>
-							</tr>
-							<tr>
-								<td height='20' width='17%' align='left'></td>
-								<td height='20' width='63%' align='right' id='XX_DIMMER_4'></td>
-								<td height='20' width='12%' align='center' id='jjjJOMOA_AFTER_DOHR'>0</td>
-								<td height='20' width='4%' align='left'><button class='cccADJUSTER' onclick="JomoaAFTERminus()">-</button></td>
-								<td height='20' width='4%' align='left'><button class='cccADJUSTER' onclick="JomoaAFTERplus()">+</button></td>
-							</tr>
-							</table>		 
-						
-							<br>
-							
-						
-						<!--   DURATION OF PRAYING   -->
-						<!--  ======================================================   -->
-						<!--  ======================================================   -->
-						<!--  ======================================================   -->
-						<div align='center' id='XX_DIMMER_5' style='color:white;' ></div>
-							
-							
-							<!--   FAJR DURATION   -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='80%' class='cccTBL1' >
-							<tr>
-								<td height='20' width='50%' align='' id='yyFAJR'>  </td>
-								<td height='20' width='20%' align='left' id='DURATION_FAJR'>0</td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONminus('FAJR')">-</button></td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONcplus('FAJR')">+</button></td>
-							</tr>
-							</table>
-						
-				
-							<!--   DOHR DURATION  -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='80%' class='cccTBL1' >
-							<tr>
-								<td height='20' width='50%' align='' id='yyDOHR'>  </td>
-								<td height='20' width='20%' align='left' id='DURATION_DOHR'>0</td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONminus('DOHR')">-</button></td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONcplus('DOHR')">+</button></td>
-							</tr>
-							</table>
-				
-				
-							<!--   ASR DURATION  -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='80%' class='cccTBL1' >
-							<tr>
-								<td height='20' width='50%' align='' id='yyASR'>  </td>
-								<td height='20' width='20%' align='left' id='DURATION_ASR'>0</td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONminus('ASR')">-</button></td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONcplus('ASR')">+</button></td>
-							</tr>
-							</table>
-				
-				
-							<!--   MAGHRIB DURATION  -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='80%' class='cccTBL1' >
-							<tr>
-								<td height='20' width='50%' align='' id='yyMAGHRIB'>  </td>
-								<td height='20' width='20%' align='left' id='DURATION_MAGHRIB'>0</td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONminus('MAGHRIB')">-</button></td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONcplus('MAGHRIB')">+</button></td>
-							</tr>
-							</table>
-				
-				
-							<!--   ISHA DURATION  -->
-							<table align='center' cellpadding='5' cellspacing='0' border='0' width='80%' class='cccTBL1' >
-							<tr>
-								<td height='20' width='50%' align='' id='yyISHA'>  </td>
-								<td height='20' width='20%' align='left' id='DURATION_ISHA'>0</td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONminus('ISHA')">-</button></td>
-								<td height='20' width='15%' align='left'><button class='cccADJUSTER' onclick="goDURATIONcplus('ISHA')">+</button></td>
-							</tr>
-							</table>
-							
-				</div>
-				
-			</div>
+        <!--  ++++++++++++++++ JOMOA_DIM_SETTINGS+++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="100%"
+          class="cccTBL1">
+          <tr>
+            <td height="20" width="17%" id="xxJOMOA">JOMOA</td>
+            <td height="20" width="63%" align="right" id="XX_DIMMER_3"></td>
+            <td
+              height="20"
+              width="12%"
+              align="center"
+              id="jjjJOMOA_BEFORE_DOHR">
+              0
+            </td>
+            <td height="20" width="4%" align="left">
+              <button class="cccADJUSTER" onclick="JomoaBEFOREminus()">
+                -
+              </button>
+            </td>
+            <td height="20" width="4" align="left">
+              <button class="cccADJUSTER" onclick="JomoaBEFOREplus()">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td height="20" width="17%" align="left"></td>
+            <td height="20" width="63%" align="right" id="XX_DIMMER_4"></td>
+            <td height="20" width="12%" align="center" id="jjjJOMOA_AFTER_DOHR">
+              0
+            </td>
+            <td height="20" width="4%" align="left">
+              <button class="cccADJUSTER" onclick="JomoaAFTERminus()">-</button>
+            </td>
+            <td height="20" width="4%" align="left">
+              <button class="cccADJUSTER" onclick="JomoaAFTERplus()">+</button>
+            </td>
+          </tr>
+        </table>
+
+        <br />
+
+        <!--  ++++++++++++++++ DURATION OF PRAYING +++++++++++++++++++++   -->
+        <!--  ======================================================   -->
+        <!--  ======================================================   -->
+        <!--  ======================================================   -->
+        <div align="center" id="XX_DIMMER_5" style="color: white"></div>
+
+        <!--  ++++++++++++++++ FAJR DURATION +++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="80%"
+          class="cccTBL1">
+          <tr>
+            <td height="20" width="50%" align="" id="yyFAJR"></td>
+            <td height="20" width="20%" align="left" id="DURATION_FAJR">0</td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONminus('FAJR')">
+                -
+              </button>
+            </td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONcplus('FAJR')">
+                +
+              </button>
+            </td>
+          </tr>
+        </table>
+
+        <!--  ++++++++++++++++ DOHR DURATION+++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="80%"
+          class="cccTBL1">
+          <tr>
+            <td height="20" width="50%" align="" id="yyDOHR"></td>
+            <td height="20" width="20%" align="left" id="DURATION_DOHR">0</td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONminus('DOHR')">
+                -
+              </button>
+            </td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONcplus('DOHR')">
+                +
+              </button>
+            </td>
+          </tr>
+        </table>
+
+        <!--  ++++++++++++++++ ASR DURATION+++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="80%"
+          class="cccTBL1">
+          <tr>
+            <td height="20" width="50%" align="" id="yyASR"></td>
+            <td height="20" width="20%" align="left" id="DURATION_ASR">0</td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONminus('ASR')">
+                -
+              </button>
+            </td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONcplus('ASR')">
+                +
+              </button>
+            </td>
+          </tr>
+        </table>
+
+        <!--  ++++++++++++++++ MAGHRIB DURATION+++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="80%"
+          class="cccTBL1">
+          <tr>
+            <td height="20" width="50%" align="" id="yyMAGHRIB"></td>
+            <td height="20" width="20%" align="left" id="DURATION_MAGHRIB">
+              0
+            </td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONminus('MAGHRIB')">
+                -
+              </button>
+            </td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONcplus('MAGHRIB')">
+                +
+              </button>
+            </td>
+          </tr>
+        </table>
+
+        <!--  ++++++++++++++++ ISHA DURATION+++++++++++++++++++++   -->
+        <table
+          align="center"
+          cellpadding="5"
+          cellspacing="0"
+          border="0"
+          width="80%"
+          class="cccTBL1">
+          <tr>
+            <td height="20" width="50%" align="" id="yyISHA"></td>
+            <td height="20" width="20%" align="left" id="DURATION_ISHA">0</td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONminus('ISHA')">
+                -
+              </button>
+            </td>
+            <td height="20" width="15%" align="left">
+              <button class="cccADJUSTER" onclick="goDURATIONcplus('ISHA')">
+                +
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
 
 
@@ -5105,6 +5236,11 @@ document.getElementById('xxIQAMA5').innerHTML		= JS_eLang.XX_IQAMA;
 
 
 document.getElementById('XX_DIMMER_0').innerHTML		= JS_eLang.XX_DIMMER_0;
+document.getElementById('XX_DIMMER_1').innerHTML		= JS_eLang.XX_DIMMER_1;
+document.getElementById('XX_DIMMER_2').innerHTML		= JS_eLang.XX_DIMMER_2;
+document.getElementById('XX_DIMMER_3').innerHTML		= JS_eLang.XX_DIMMER_3;
+document.getElementById('XX_DIMMER_4').innerHTML		= JS_eLang.XX_DIMMER_4;
+document.getElementById('XX_DIMMER_5').innerHTML		= JS_eLang.XX_DIMMER_5;
 document.getElementById('xxJOMOA').innerHTML			= JS_WEEK_DAYS_NOW[5];
 document.getElementById('XX_DIMMER_3').innerHTML		= JS_eLang.XX_DIMMER_3;
 document.getElementById('XX_DIMMER_4').innerHTML		= JS_eLang.XX_DIMMER_4;
@@ -5362,7 +5498,8 @@ function FetchMETEO()
 if(JSALLDATA.IZmeteo==0) return;
 
 if(JS_METEO_LATITUDE == 0) {JS_VRCELSIUS.innerHTML = "-- °C"; JS_HRCELSIUS.innerHTML = "-- °C"; return;}
-fetch('https://api.open-meteo.com/v1/forecast?latitude='+JS_METEO_LATITUDE+'&longitude='+JS_METEO_LONGITUDE+'&hourly=temperature_2m,weathercode&forecast_days=3&timezone=auto') 
+
+fetch('https://api.open-meteo.com/v1/forecast?latitude='+JS_METEO_LATITUDE+'&longitude='+JS_METEO_LONGITUDE+'&hourly=temperature_2m,weathercode&forecast_days=3&timezone=auto') 
 	.then(text => text.json()) 
 	.then(data => {
 				  JS_DATA_METEO = data;
@@ -5530,5 +5667,91 @@ goShowNames();
 CheckVRSCREEN();
 //-----------------------------------------------------------------------------------
 //]]>
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================== Amader Code ============================ */
+
+
+
+
+
+
+
+/* Adjust Black-Screen Start */
+
+
+ var JS_eDohaScreenCHECK = document.getElementById("eDohaScreenCHECK");
+
+// ----- Minutes after SHOROUQ  to Dimm the Screen
+var JS_MINUTES_AFTER_SHOROUQ_TO_DIMM_SCREEN = 35;
+
+// Get the value of STORAGE_DOHA_SCREENSAVER from local storage
+var eetempo = localStorage.getItem("STORAGE_DOHA_SCREENSAVER");
+
+// Initialize JS_DOHA_SCREENSAVER_ACTIVE based on the value of eetempo
+var JS_DOHA_SCREENSAVER_ACTIVE = eetempo === "1";
+
+// Set the checked state of JS_eDohaScreenCHECK based on JS_DOHA_SCREENSAVER_ACTIVE
+JS_eDohaScreenCHECK.checked = JS_DOHA_SCREENSAVER_ACTIVE;
+
+//----- DO DIMM WHEN SHOROUQ COMES
+if (JS_nowMNTS === _shrq + JS_MINUTES_AFTER_SHOROUQ_TO_DIMM_SCREEN) {
+  if (JS_DOHA_SCREENSAVER_ACTIVE) {
+    ForceScreenSaverNOW();
+  }
+}
+
+//-------DohaScreenSaverOnOff------------------------------------------------------------------------------------
+function DohaScreenSaverOnOff() {
+  JS_DOHA_SCREENSAVER_ACTIVE = !JS_DOHA_SCREENSAVER_ACTIVE;
+  var sssBOOL = JS_DOHA_SCREENSAVER_ACTIVE ? "1" : "0";
+  localStorage.setItem("STORAGE_DOHA_SCREENSAVER", sssBOOL);
+  JS_eDohaScreenCHECK.checked = JS_DOHA_SCREENSAVER_ACTIVE;
+}
+
+/* ===================================================================== */
+
+
+var JS_eIshaScreenCHECK = document.getElementById("eIshaScreenCHECK");
+
+// ----- Minutes after ISHA to Dimm the Screen
+var JS_MINUTES_AFTER_ISHA_TO_DIMM_SCREEN = 50;
+
+// Get the value of STORAGE_ISHA_SCREENSAVER from local storage
+var eetempoIsha = localStorage.getItem("STORAGE_ISHA_SCREENSAVER");
+
+// Initialize JS_ISHA_SCREENSAVER_ACTIVE based on the value of eetempoIsha
+var JS_ISHA_SCREENSAVER_ACTIVE = eetempoIsha === "1";
+
+//----- START THE DIMMER AFTER ISHA
+if (JS_nowMNTS === _isha + JS_MINUTES_AFTER_ISHA_TO_DIMM_SCREEN) {
+  if (JS_ISHA_SCREENSAVER_ACTIVE) {
+    ForceScreenSaverNOW();
+  }
+}
+
+//-------IshaScreenSaverOnOff------------------------------------------------------------------------------------
+function IshaScreenSaverOnOff() {
+  JS_ISHA_SCREENSAVER_ACTIVE = !JS_ISHA_SCREENSAVER_ACTIVE;
+  var sssBOOL = JS_ISHA_SCREENSAVER_ACTIVE ? "1" : "0";
+  localStorage.setItem("STORAGE_ISHA_SCREENSAVER", sssBOOL);
+  JS_eIshaScreenCHECK.checked = JS_ISHA_SCREENSAVER_ACTIVE;
+}
+
+// Set the checked state of the element based on JS_ISHA_SCREENSAVER_ACTIVE
+JS_eIshaScreenCHECK.checked = JS_ISHA_SCREENSAVER_ACTIVE;
+
+/* Adjust Black-Screen end */
+
 </script>
 
